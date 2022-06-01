@@ -1,4 +1,4 @@
-![[print]](https://github.com/siomar/weather/blob/main/screen.png?raw=true)
+![[print]](https://github.com/siomar/Weather/blob/main/src/assets/screen.png?raw=true)
 
 # Aplicativo para exibir dados climáticos e endereço
 
