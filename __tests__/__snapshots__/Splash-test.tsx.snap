@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home tests snapshot 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#ffcc01",
+      "flex": 1,
+    }
+  }
+/>
+`;

@@ -1,0 +1,454 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home tests snapshot 1`] = `
+Array [
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#ffcc01",
+          "flexBasis": 0,
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "height": "100%",
+          "justifyContent": "center",
+          "position": "absolute",
+          "width": "100%",
+          "zIndex": 200,
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "fontSize": 24,
+            "lineHeight": 26,
+            "opacity": 1,
+          },
+        ]
+      }
+    >
+      Carregando...
+    </Text>
+  </View>,
+  <RCTScrollView
+    nestedScrollEnabled={true}
+    style={
+      Array [
+        Object {
+          "flexBasis": 0,
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "position": "relative",
+        },
+      ]
+    }
+  >
+    <View>
+      <View
+        accessibilityIgnoresInvertColors={true}
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#fff",
+              "height": 300,
+              "justifyContent": "center",
+              "marginTop": 0,
+              "width": "100%",
+            },
+          ]
+        }
+      >
+        <Image
+          resizeMode="cover"
+          source={
+            Object {
+              "testUri": "../../../src/assets/bg.jpg",
+            }
+          }
+          style={
+            Array [
+              Object {
+                "bottom": 0,
+                "left": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
+              Object {
+                "height": 300,
+                "width": "100%",
+              },
+              undefined,
+            ]
+          }
+        />
+        <RCTSafeAreaView
+          emulateUnlessSupported={true}
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "rgba(255, 255, 255, 0.8)",
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "justifyContent": "center",
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "paddingRight": 0,
+                "paddingTop": 0,
+                "width": "100%",
+              },
+            ]
+          }
+        >
+          <Image
+            source={
+              Object {
+                "uri": "https://openweathermap.org/img/wn/undefined@2x.png",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "borderRadius": 70,
+                  "height": 70,
+                  "width": 70,
+                },
+              ]
+            }
+          />
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontSize": 35,
+                  "lineHeight": 50,
+                },
+              ]
+            }
+          >
+            °C
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontSize": 24,
+                  "lineHeight": 26,
+                  "opacity": 1,
+                },
+              ]
+            }
+          />
+        </RCTSafeAreaView>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "boxSizing": "border-box",
+              "flexBasis": 0,
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "paddingBottom": 20,
+              "paddingLeft": 18,
+              "paddingRight": 18,
+              "paddingTop": 20,
+              "width": "100%",
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "marginBottom": 14,
+                "marginLeft": 0,
+                "marginRight": 0,
+                "marginTop": 14,
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 26,
+                    "lineHeight": 28,
+                  },
+                ]
+              }
+            />
+            <Text
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "fontSize": 18,
+                    "lineHeight": 26,
+                    "opacity": 1,
+                  },
+                ]
+              }
+            >
+               - 
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "paddingBottom": 20,
+                  "paddingLeft": 0,
+                  "paddingRight": 0,
+                  "paddingTop": 20,
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "borderBottomColor": "#ddd",
+                    "borderBottomWidth": 1,
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                    "paddingBottom": 15,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "paddingTop": 15,
+                  },
+                ]
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#000",
+                      "fontSize": 20,
+                      "lineHeight": 22,
+                    },
+                  ]
+                }
+              >
+                Visibilidade:
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#777",
+                      "fontSize": 20,
+                      "lineHeight": 22,
+                    },
+                  ]
+                }
+              >
+                km
+              </Text>
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "borderBottomColor": "#ddd",
+                    "borderBottomWidth": 1,
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                    "paddingBottom": 15,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "paddingTop": 15,
+                  },
+                ]
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#000",
+                      "fontSize": 20,
+                      "lineHeight": 22,
+                    },
+                  ]
+                }
+              >
+                Umidade
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#777",
+                      "fontSize": 20,
+                      "lineHeight": 22,
+                    },
+                  ]
+                }
+              >
+                %
+              </Text>
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "borderBottomColor": "#ddd",
+                    "borderBottomWidth": 1,
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                    "paddingBottom": 15,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "paddingTop": 15,
+                  },
+                ]
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#000",
+                      "fontSize": 20,
+                      "lineHeight": 22,
+                    },
+                  ]
+                }
+              >
+                Temperatura min.
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#777",
+                      "fontSize": 20,
+                      "lineHeight": 22,
+                    },
+                  ]
+                }
+              >
+                °C
+              </Text>
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "borderBottomColor": "#ddd",
+                    "borderBottomWidth": 1,
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                    "paddingBottom": 15,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "paddingTop": 15,
+                  },
+                ]
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#000",
+                      "fontSize": 20,
+                      "lineHeight": 22,
+                    },
+                  ]
+                }
+              >
+                Temperatura max.
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#777",
+                      "fontSize": 20,
+                      "lineHeight": 22,
+                    },
+                  ]
+                }
+              >
+                °C
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          accessibilityLabel="Atualizar status"
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#ffcc01",
+              "borderRadius": 10,
+              "height": 60,
+              "justifyContent": "center",
+              "opacity": 1,
+              "width": "100%",
+            }
+          }
+          testID="pressButton"
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#fff",
+                  "fontSize": 24,
+                  "lineHeight": 26,
+                },
+              ]
+            }
+          >
+            Atualizar
+          </Text>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>,
+]
+`;
